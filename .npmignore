@@ -6,7 +6,6 @@ build/
 dist/
 react-icons/
 vue-icons/
-icons/
 
 # Ignore source files (if you're only publishing the built files)
 src/
@@ -17,7 +16,7 @@ src/
 npm-debug.log*
 
 # Ignore the cheatsheet
-cheatsheet.html
+*.html
 
 # Ignore tests and documentation
 tests/

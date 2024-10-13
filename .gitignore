@@ -4,7 +4,7 @@ node_modules/
 # Build output directories
 icons/
 build/
-cheatsheet.html
+*.html
 
 # Logs
 *.log
