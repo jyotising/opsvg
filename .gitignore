@@ -4,7 +4,6 @@ node_modules/
 # Build output
 /react-icons/
 /vue-icons/
-cheatsheet.html
 
 # Logs
 *.log
