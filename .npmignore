@@ -6,6 +6,7 @@ build/
 dist/
 react-icons/
 vue-icons/
+icons/
 
 # Ignore source files (if you're only publishing the built files)
 src/

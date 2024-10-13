@@ -2,7 +2,7 @@
 node_modules/
 
 # Build output
-
+.icons
 # Logs
 *.log
 
@@ -21,4 +21,3 @@ Thumbs.db
 
 # Optional: Ignore any local configuration files
 local-config.json
-.vercel
