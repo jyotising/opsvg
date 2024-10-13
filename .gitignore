@@ -2,10 +2,9 @@
 node_modules/
 
 # Build output directories
-react-icons/
-vue-icons/
-dist/
+icons/
 build/
+cheatsheet.html
 
 # Logs
 *.log

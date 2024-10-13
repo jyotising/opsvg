@@ -4,7 +4,6 @@
   "main": "vue-icons/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gh-pages -d cheatsheet.html",
     "build:react": "node build-react.js",
     "build:vue": "node build-vue.js",
     "build:cheatsheet": "node generate-cheatsheet.js",
