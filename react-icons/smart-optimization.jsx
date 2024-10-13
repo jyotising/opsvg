@@ -1,0 +1,17 @@
+
+    import React from 'react';
+    const smart-optimization = (props) => (<svg height="24" width="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	<g clipPath="url(#clip0_2_19633)">
+		<path d="M24 0H0V24H24V0Z" fill="white" fillOpacity="0.01"/>
+		<path d="M12.0001 22.5C13.6104 22.5 16.3638 20.4 16.3638 12C16.3638 3.6 13.6104 1.5 12.0001 1.5C10.3899 1.5 7.63647 3.74151 7.63647 12C7.63647 20.2585 10.3899 22.5 12.0001 22.5Z" fillRule="evenodd" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+		<path d="M2.55246 17.4997C3.35761 18.9058 6.62381 20.2102 14.1819 15.8102C21.7399 11.4102 22.2527 7.90582 21.4476 6.49967C20.6424 5.09352 17.2489 3.86328 9.8182 8.18917C2.38749 12.515 1.74733 16.0935 2.55246 17.4997Z" fillRule="evenodd" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+		<path d="M2.55241 6.49967C1.74728 7.90582 2.26011 11.4102 9.81816 15.8102C17.3762 20.2102 20.6424 18.9058 21.4475 17.4997C22.2527 16.0935 21.6125 12.515 14.1818 8.18917C6.75106 3.86328 3.35756 5.09352 2.55241 6.49967Z" fillRule="evenodd" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	</g>
+	<defs>
+		<clipPath id="clip0_2_19633">
+			<rect height="24" width="24" fill="white"/>
+		</clipPath>
+	</defs>
+</svg>);
+    export default smart-optimization;
+  

@@ -1,0 +1,26 @@
+
+    <template>
+      <svg height="24" width="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	<path d="M3.5 3.25L20.5 22.25" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M12 1C10.8954 1 10 1.89543 10 3H14C14 1.89543 13.1045 1 12 1Z" fill="#333333"/>
+	<path d="M8.53516 19C8.77776 20.6961 10.2365 22 11.9997 22C13.763 22 15.2217 20.6961 15.4643 19H8.53516Z" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M15 19H3C3 19 5.7846 16.6795 5.98825 10.25" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M20.9997 19C20.9997 19 17.9997 16.5 17.9997 9.5C17.9997 6.1863 15.3134 3.5 11.9997 3.5C10.7297 3.5 9.55178 3.89459 8.58203 4.56785" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+</svg>
+    </template>
+    <script>
+    export default {
+      name: 'close-remind',
+      props: {
+        width: {
+          type: String,
+          default: '24px'
+        },
+        height: {
+          type: String,
+          default: '24px'
+        }
+      }
+    };
+    </script>
+  

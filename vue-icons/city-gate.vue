@@ -1,0 +1,27 @@
+
+    <template>
+      <svg height="24" width="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	<path d="M7.5 5.5H16C16 5.5 18.5238 6.9832 19.5 7.5C20.0457 7.7889 22 8 22 8C22 8 21.0919 8.32435 20.5 8.5C19.7282 8.729 18.5 9 18.5 9H12H5.5C5.5 9 4.27183 8.729 3.5 8.5C2.90803 8.32435 2 8 2 8C2 8 3.95429 7.7889 4.5 7.5C5.4762 6.9832 7.5 5.5 7.5 5.5Z" stroke="#333333" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M8.5 5.5L12 2L15 5.5H8.5Z" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M17.5 9V12" stroke="#333333" strokeWidth="2"/>
+	<path d="M6 9V12" stroke="#333333" strokeWidth="2"/>
+	<path d="M2 22L3 12H21L22 22H2Z" stroke="#333333" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M10 19C10 17.8954 10.8954 17 12 17C13.1046 17 14 17.8954 14 19V22H10V19Z" stroke="#333333" strokeWidth="2"/>
+</svg>
+    </template>
+    <script>
+    export default {
+      name: 'city-gate',
+      props: {
+        width: {
+          type: String,
+          default: '24px'
+        },
+        height: {
+          type: String,
+          default: '24px'
+        }
+      }
+    };
+    </script>
+  

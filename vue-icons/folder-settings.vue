@@ -1,0 +1,31 @@
+
+    <template>
+      <svg height="24" width="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	<path d="M2.5 4C2.5 3.44771 2.94771 3 3.5 3H9.5L12 6H20.5C21.0523 6 21.5 6.4477 21.5 7V20C21.5 20.5523 21.0523 21 20.5 21H3.5C2.94771 21 2.5 20.5523 2.5 20V4Z" stroke="#333333" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M12 16C13.1046 16 14 15.1046 14 14C14 12.8954 13.1046 12 12 12C10.8954 12 10 12.8954 10 14C10 15.1046 10.8954 16 12 16Z" stroke="#333333" strokeWidth="2"/>
+	<path d="M12 10.5V12" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M12 16V17.5" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M14.414 11.5L13.3534 12.5606" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M10.414 15.5L9.35339 16.5606" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M9.5 11.5L10.5606 12.5606" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M13.5 15.5L14.5606 16.5606" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M8.5 14H9.25H10" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M14 14H14.75H15.5" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+</svg>
+    </template>
+    <script>
+    export default {
+      name: 'folder-settings',
+      props: {
+        width: {
+          type: String,
+          default: '24px'
+        },
+        height: {
+          type: String,
+          default: '24px'
+        }
+      }
+    };
+    </script>
+  

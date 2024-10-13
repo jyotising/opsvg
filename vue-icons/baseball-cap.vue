@@ -1,0 +1,25 @@
+
+    <template>
+      <svg height="24" width="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	<path d="M6 15C6 10.5817 9.5817 7 14 7C18.4183 7 22 10.5817 22 15V18H6V15Z" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M11.0001 18C10.5001 16.25 10.5001 7 14.0001 7C17.5001 7 17.2501 16 17.0001 18" stroke="#333333" strokeWidth="2"/>
+	<path d="M15.5 18H3.5C2.67157 18 2 18.6716 2 19.5C2 20.3284 2.67157 21 3.5 21H15.5C16.3284 21 17 20.3284 17 19.5C17 18.6716 16.3284 18 15.5 18Z" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M14 7C15.1046 7 16 6.10457 16 5C16 3.89543 15.1046 3 14 3C12.8954 3 12 3.89543 12 5C12 6.10457 12.8954 7 14 7Z" stroke="#333333" strokeWidth="2"/>
+</svg>
+    </template>
+    <script>
+    export default {
+      name: 'baseball-cap',
+      props: {
+        width: {
+          type: String,
+          default: '24px'
+        },
+        height: {
+          type: String,
+          default: '24px'
+        }
+      }
+    };
+    </script>
+  

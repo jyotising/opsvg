@@ -2,8 +2,6 @@
 node_modules/
 
 # Build output
-/react-icons/
-/vue-icons/
 
 # Logs
 *.log
@@ -23,3 +21,4 @@ Thumbs.db
 
 # Optional: Ignore any local configuration files
 local-config.json
+.vercel

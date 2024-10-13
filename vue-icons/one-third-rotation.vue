@@ -1,0 +1,34 @@
+
+    <template>
+      <svg height="24" width="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	<g clipPath="url(#clip0_2_19971)">
+		<path d="M24 0H0V24H24V0Z" fill="white" fillOpacity="0.01"/>
+		<path d="M24 0H0V24H24V0Z" fill="white" fillOpacity="0.01"/>
+		<path d="M18.0001 20.0075C16.3288 21.2561 14.2513 22 12.0001 22C8.29866 22 5.06691 19.989 3.33789 17H7.50006" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+		<path d="M16 2.83203C19.5318 4.37515 22 7.89929 22 11.9999C22 13.8214 21.5131 15.5291 20.6622 16.9999L18.641 13.4999" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+		<path d="M2.04938 13C2.01672 12.6711 2 12.3375 2 12C2 6.47715 6.47715 2 12 2L9.97885 5.5" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+		<path d="M12 15C13.6568 15 15 13.6568 15 12C15 10.3432 13.6568 9 12 9C10.3432 9 9 10.3432 9 12C9 13.6568 10.3432 15 12 15Z" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	</g>
+	<defs>
+		<clipPath id="clip0_2_19971">
+			<rect height="24" width="24" fill="white"/>
+		</clipPath>
+	</defs>
+</svg>
+    </template>
+    <script>
+    export default {
+      name: 'one-third-rotation',
+      props: {
+        width: {
+          type: String,
+          default: '24px'
+        },
+        height: {
+          type: String,
+          default: '24px'
+        }
+      }
+    };
+    </script>
+  

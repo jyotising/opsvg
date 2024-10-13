@@ -1,0 +1,30 @@
+
+    <template>
+      <svg height="24" width="24" fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+	<path d="M12 21C16.6944 21 20.5 17.1944 20.5 12.5C20.5 7.8056 16.6944 4 12 4C7.3056 4 3.5 7.8056 3.5 12.5C3.5 17.1944 7.3056 21 12 21Z" stroke="#333333" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M16.5 10.5L15.5 11L14.5 10.5" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M9.5 10.5L8.5 11L7.5 10.5" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M12 19V22" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M12 4C11.875 3.5 11 2 9 2" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M12 4C12.0417 3.5 12.3 2.4 13 2" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M15.9877 20C15.9877 17 15.9877 15.5 12 15.5C8.00003 15.5 8.01233 17 8.01233 20" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M2.5 11.5V13.5" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+	<path d="M21.5 11.5V13.5" stroke="#333333" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"/>
+</svg>
+    </template>
+    <script>
+    export default {
+      name: 'child-with-pacifier',
+      props: {
+        width: {
+          type: String,
+          default: '24px'
+        },
+        height: {
+          type: String,
+          default: '24px'
+        }
+      }
+    };
+    </script>
+  
