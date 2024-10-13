@@ -4,20 +4,37 @@
   "main": "vue-icons/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d cheatsheet.html",
     "build:react": "node build-react.js",
     "build:vue": "node build-vue.js",
     "build:cheatsheet": "node generate-cheatsheet.js",
     "build": "build:react build:vue build:cheatsheet"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": [
+    "svg",
+    "opsvg",
+    "icon",
+    "open-source",
+    "icon",
+    "library",
+    "free",
+    "icon",
+    "vector",
+    "vector",
+    "icon"
+  ],
+  "author": "Jyoti Sing",
+  "license": "MIT",
+  "description": "free open source svg icon library",
   "dependencies": {
     "handlebars": "^4.7.8",
     "npm-run-all": "^4.1.5",
     "svg-to-jsx": "^1.0.4",
     "svgo": "^3.3.2",
     "vue": "^3.5.12"
+  },
+  "homepage": "https://jyotising.github.io/opsvg",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
   }
 }
