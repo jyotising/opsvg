@@ -1,0 +1,47 @@
+# Node modules
+node_modules/
+npm-debug.log*
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Build output directories
+react-icons/
+vue-icons/
+dist/
+build/
+cheatsheet.html
+
+# Temporary files
+*.tmp
+*.swp
+*.lock
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables and configuration files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore GitHub workflows cache
+.github/workflows/node_modules/
+
+# Coverage directory (if you run tests with coverage)
+coverage/
+
+# Ignore lint cache
+.eslintcache
